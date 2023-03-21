@@ -1,4 +1,7 @@
 class Application {
+    public static void main(String[] args) {
+        System.out.println("Hello World oh yeah!");
+    }
     private int id;
     private static int lastedId;
     private String name;
@@ -48,5 +51,6 @@ class Application {
     public String toString() {
         return "Application [id=" + id + ", name=" + name + ", description=" + description + ", size=" + size + "]";
     }
+
     
 }
