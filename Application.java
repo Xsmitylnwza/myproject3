@@ -1,4 +1,6 @@
 class Application {
+    public static final int getSize = 0;
+
     public static void main(String[] args) {
         System.out.println("Hello World oh yeah!");
     }
